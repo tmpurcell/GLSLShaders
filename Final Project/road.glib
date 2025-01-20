@@ -1,0 +1,50 @@
+##OpenGL GLIB
+
+Perspective 90
+LookAt 0 0 2  0 0 0  0 1 0
+
+Vertex   road.vert
+Fragment road.frag
+Program  FinalProject       \
+    uKa <0. .5 1.>          \
+    uKd <0. .5 1.>          \
+    uKs <0. .5 1.>          \
+    uShininess <1. 1. 20.>  \
+    uPatternWidth <0. 0. 2.>\
+    uDotWidth <0. 0. 2.>    \
+    uDotHeight <0. 0. 2.>
+
+PushMatrix
+Scale 10 1 1
+QuadXY  0.  1.  300 300
+PopMatrix
+
+
+Vertex   GTR.vert
+Fragment GTR.frag
+Program  GTR                \
+    uKa <0. .5 1.>          \
+    uKd <0. .5 1.>          \
+    uKs <0. .5 1.>          \
+    uShininess <1. 1. 20.>  \
+    uExplosionMagnitude <0. 0. 25.> \
+    uRandomX <0. 5000. 10000.>          \
+    uRandomY <0. 5000. 10000.>          \
+    uRandomZ <0. 5000. 10000>
+    
+
+Obj gtr.obj
+
+Vertex   Porsche.vert
+Fragment Porsche.frag
+Program  Porsche            \
+    uKa <0. .5 1.>          \
+    uKd <0. .5 1.>          \
+    uKs <0. .5 1.>          \
+    uShininess <1. 1. 20.>  \
+    uExplosionMagnitude <0. 0. 25.> \
+    uRandomX <0. 5000. 10000.>          \
+    uRandomY <0. 5000. 10000.>          \
+    uRandomZ <0. 5000. 10000>         
+
+Obj porsche.obj
