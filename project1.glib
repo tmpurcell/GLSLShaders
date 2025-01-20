@@ -1,0 +1,18 @@
+##OpenGL GLIB
+
+Perspective 90
+LookAt 0 0 2  0 0 0  0 1 0
+
+Vertex   project1.vert
+Fragment project1.frag
+Program  Project 1          \
+    uAd <.001 .1 .5>        \
+    uBd <.001 .1 .5>        \
+    uTol <0. 0. 1.>         \
+    uKa <0. .5 1.>          \
+    uKd <0. .5 1.>          \
+    uKs <0. .5 1.>          \
+    uShininess <1. 1. 20.>
+Color 1. .9 0
+Sphere 1 50 50
+##OBj Porsche_911.obj - too big to include in zip
