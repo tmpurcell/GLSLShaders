@@ -1,0 +1,18 @@
+##OpenGL GLIB
+
+LookAt  0 0 3  0 0 0  0 1 0
+Perspective 70
+
+Vertex   project6.vert
+Fragment project6.frag
+Program  Project 2                               \
+    uKa <0. .5 1.> uKd <0. .5 1.>                \
+    uKs <0. .5 1.> uShininess <1. 1. 20>         \
+    uExplosion <0. .5 10>                        \
+    uLineSpacing <0. .5 1.>                      \
+    uLineWidth <0. 1. 1>                        \
+    uGlowWidth <0. 1. 1.>
+
+Color 1. .9 0
+
+Obj		dragon138.obj
