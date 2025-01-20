@@ -1,1 +1,3 @@
-This is a showcase of projects completed using GLSL
+# GLSL Shaders and Graphics
+
+This is a showcase of projects completed utilizing the GLSL language
